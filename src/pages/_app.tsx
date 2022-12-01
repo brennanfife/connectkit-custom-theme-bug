@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import type { AppProps } from "next/app";
 
 import { WagmiConfig, createClient, chain } from "wagmi";
