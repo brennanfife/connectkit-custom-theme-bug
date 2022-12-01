@@ -16,10 +16,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={client}>
       <ConnectKitProvider
-      // customTheme={{
-      //   // "--ck-connectbutton-background": "#ff0",
-      //   "--ck-connectbutton-border-radius": 40,
-      // }}
+        customTheme={{
+          "--ck-connectbutton-background": "#f00",
+          "--ck-connectbutton-border-radius": 40,
+          "--ck-border-radius": 20,
+        }}
       >
         <Component {...pageProps} />
       </ConnectKitProvider>
